@@ -1,0 +1,23 @@
+body{
+    color: red;
+}
+
+h1{
+    color:blue;
+}
+
+h2{
+    color:green;
+}
+
+
+/* for id we use # */
+#lib-header{
+    color:chartreuse
+}
+
+
+/* for class we use dot(.) */
+.para{
+    color:brown
+}
