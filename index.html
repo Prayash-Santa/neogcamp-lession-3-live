@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    
+    <!-- CSS way 1: style tag [Internal CSS]
+    <style>
+        body{
+            color:red;
+        }
+    </style> -->
+
+
+    <!-- CSS way 3 : [External CSS] -->
+    <link rel="stylesheet" href="style.css">
+
+    
+
 </head>
 <body>
+
+    <!-- CSS way 2 : style attribute [Inline CSS]
+    <h1 style="color:red">Welcome to Prayash's component library</h1> -->
+
     <h1>Welcome to Prayash's component library</h1>
     <p>I am attending neog.camp <br> and I <u>want to make a library </u> which would <b>make all</b> my projects look <i>good and consistent.</i></p>
     
@@ -96,6 +114,33 @@
         <img src="images/hero.svg" />
         <h1>heading inside hero</h1>
     </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section>
+        <h3>white section</h3>
+        <p>This will have white background</p>
+    </section>
+
+    <section>
+        <h3>off white section</h3>
+        <p>This will have gray background</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer>
+    <div>Some small heading inside footer</div>
+    <ul>
+        <li>social one</li>
+        <li>social two</li>
+        <li>social three</li>
+    </ul>
+</footer>
+
 
 
 
