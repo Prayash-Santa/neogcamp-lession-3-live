@@ -16,11 +16,14 @@ body{
 }
 
 .container-fluid{
-    padding-left: 2rem;
+    /* padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem; */
     color:red;
+    margin:auto;
+    max-width: 600px;
+    
 }
 
 .container-center{
@@ -28,3 +31,37 @@ body{
     margin: auto;
     color:blue;
 }
+
+
+/* Navigation */
+
+
+.nav-brand{
+    font-size: 2rem; 
+    color: blue;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+display: inline;
+padding: 0rem 0.5rem;
+
+}
+
+.navigation{
+    background-color:yellow;
+    border-radius: 0.5rem;
+    
+}
+
+.navigation .link{
+    color: black;
+}
+
+
+ 
